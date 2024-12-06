@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build --legacy-peer-deps"
   publish = ".next"
   environment = { NODE_VERSION = "18" }
 
